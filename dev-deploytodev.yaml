@@ -1,0 +1,14 @@
+name: Code to developer envs
+
+on: 
+  push:
+    branches: [ dev ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: My development in Dev branch
+        run: echo "The latest artifact was deployed"
+        
