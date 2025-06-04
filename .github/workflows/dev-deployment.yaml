@@ -10,5 +10,8 @@ jobs:
     steps:
       - name: Hola mundo
         run: echo "hola mundo"
+      -name: second push 
+       run: ls -la 
+       
         
       
