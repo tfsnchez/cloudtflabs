@@ -11,4 +11,6 @@ jobs:
     steps:
       - name: My development in Dev branch
         run: echo "The latest artifact was deployed"
+      - name: create container
+        run: echo "Your container was created"
         
